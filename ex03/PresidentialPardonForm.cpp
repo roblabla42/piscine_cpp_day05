@@ -6,7 +6,7 @@
 /*   By: roblabla <robinlambertz+dev@gmail.c>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2015/06/23 14:10:13 by roblabla          #+#    #+#             */
-/*   Updated: 2015/06/23 14:11:02 by roblabla         ###   ########.fr       */
+/*   Updated: 2015/06/23 15:26:29 by roblabla         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,17 @@
 #include "PresidentialPardonForm.hpp"
 
 PresidentialPardonForm::PresidentialPardonForm() :
-	Form("PresidentialPardonForm", 145, 137), target("target")
+	Form("PresidentialPardonForm", 25, 5), target("target")
 {
 }
 
 PresidentialPardonForm::PresidentialPardonForm(PresidentialPardonForm const &src) :
-	Form("PresidentialPardonForm", 145, 137), target(src.target)
+	Form("PresidentialPardonForm", 25, 5), target(src.target)
 {
 }
 
 PresidentialPardonForm::PresidentialPardonForm(std::string target) :
-	Form("PresidentialPardonForm", 145, 137), target(target)
+	Form("PresidentialPardonForm", 25, 5), target(target)
 {
 }
 
